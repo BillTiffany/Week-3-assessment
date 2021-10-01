@@ -4,7 +4,7 @@ body {
     align-content: center;
     align-content: center;
     margin-left: 40%;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .city-head {
@@ -13,41 +13,58 @@ body {
     background-image: url("https://mystickermania.com/cdn/stickers/simpsons-stickers/sticker_5006-512x512.png");
     background-position: center;
     color: slategray;
+    border: white 3px solid;
+    border-radius: 10px;
 }
 
 h1 {
     background-color: mediumturquoise;
     font-size: 60px;
     padding: 20px;
-    margin-left: 30px;
     color: white;
+    border: white 3px solid;
+    border-radius: 10px;
 
 }
 
 .offer {
     background-color: mediumturquoise;
     font-size: 30px;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
 }
 
 .springfield-info {
     background-color: mediumturquoise;
     padding: 20px;
     color: white;
+    border-radius: 10px;
+    border: white 3px solid;
 }
 
 #contact {
     background-color: mediumturquoise;
     padding: 20px;
+    border-radius: 10px;
+    border: white 3px solid;
 }
 
 .list {
     background-color: mediumturquoise;
     padding: 20px;
     list-style: circle;
+    padding: 20px;
+    padding-left: 50px;
+    color: white;
+    border-radius: 10px;
+    border: white 3px solid;
 }
 
 .contactUs {
     background-color: mediumturquoise;
     font-size: 25px;
     color: white;
+    border-radius: 10px;
+    border: white 3px solid;
 }
