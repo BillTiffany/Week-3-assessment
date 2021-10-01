@@ -1,42 +1,63 @@
 body {
     background-image: url("http://media4.s-nbcnews.com/i/streams/2012/April/120410/318811-120410-ent-springfield-vmed.jpg");
     background-size: cover;
-    align-content: center;
-    align-content: center;
-    margin-left: 40%;
+    margin-left: 30%;
     max-width: 700px;
 }
 
 .city-head {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     font-size: 30px;
     background-image: url("https://mystickermania.com/cdn/stickers/simpsons-stickers/sticker_5006-512x512.png");
     background-position: center;
-    color: slategray;
+    color: rgb(23, 83, 143);
     border: white 3px solid;
     border-radius: 10px;
+    font-family: 'Rock Salt', cursive;
+    
 }
 
+@keyframes wheelHueColor {
+    from, to { color: hsl(322, 25%, 94%); }
+    10%      { color: rgb(96, 72, 180); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(0, 0%, 1%); }
+}
+
+.city-head {
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 3s infinite;
+}
+
+
+
 h1 {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     font-size: 60px;
     padding: 20px;
     color: white;
     border: white 3px solid;
     border-radius: 10px;
-
+    font-family: 'Rock Salt', cursive;
 }
 
 .offer {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     font-size: 30px;
     color: white;
     border: white 3px solid;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .springfield-info {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     padding: 20px;
     color: white;
     border-radius: 10px;
@@ -44,14 +65,14 @@ h1 {
 }
 
 #contact {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     padding: 20px;
     border-radius: 10px;
     border: white 3px solid;
 }
 
 .list {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     padding: 20px;
     list-style: circle;
     padding: 20px;
@@ -62,9 +83,46 @@ h1 {
 }
 
 .contactUs {
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     font-size: 25px;
     color: white;
     border-radius: 10px;
     border: white 3px solid;
+}
+
+.crumb {
+    
+    margin-right: 2em;
+    display: inline;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+a {
+	color: white;
+    padding: 10px;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:hover {
+    color:lawngreen;
+}
+
+.citypic {
+    border: white 3px solid;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 70px;
+}
+
+p {
+    font-family: 'Rock Salt', cursive;;
+}
+
+#springfield {
+    padding-left: 75px;
 }

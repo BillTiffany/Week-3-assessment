@@ -40,6 +40,7 @@ ol {
 	font-size: 50px;
 	text-align: center;
 	margin-right: 100px;
+	max-width: 400px;
 
 }
 
@@ -80,9 +81,9 @@ img {
 .offer {
 	font-family: fantasy;
 	font-size: 25px;
-	color: white;
+	color: black;
 	font-style: italic;
-	font-style: underline;
+	background-color: ivory ;
 
 }
 
@@ -90,4 +91,8 @@ img {
 	background-color: ivory;
 	height: max-content;
 	padding: 20px;
+}
+
+.contact {
+	background-color: ivory;
 }
