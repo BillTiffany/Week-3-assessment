@@ -102,12 +102,14 @@ img {
 	height: max-content;
 	border-radius: 10px;
 	padding: 10px;
+	font-family: fantasy;
 }
 
 .contact {
 	background-color: ivory;
 	border-radius: 10px;
 	padding: 10px;
+	font-family: fantasy;
 
 }
 
@@ -117,4 +119,11 @@ img {
 	margin-left: 100px;
 	border-radius: 10px;
 	padding: 10px;
+}
+
+.hotel-list {
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 600;
 }
