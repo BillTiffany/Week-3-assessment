@@ -6,7 +6,7 @@ body {
 }
 
 .city-head {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     font-size: 30px;
     background-image: url("https://mystickermania.com/cdn/stickers/simpsons-stickers/sticker_5006-512x512.png");
     background-position: center;
@@ -14,6 +14,7 @@ body {
     border: white 3px solid;
     border-radius: 10px;
     font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
     
 }
 
@@ -41,42 +42,45 @@ body {
 
 
 h1 {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     font-size: 60px;
     padding: 20px;
-    color: white;
-    border: white 3px solid;
+    color: gold;
+    border: gold 3px solid;
     border-radius: 10px;
     font-family: 'Rock Salt', cursive;
 }
 
 .offer {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     font-size: 30px;
-    color: white;
+    color: gold;
     border: white 3px solid;
     border-radius: 10px;
     padding-left: 10px;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
+
 }
 
 .springfield-info {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     padding: 20px;
     color: white;
     border-radius: 10px;
     border: white 3px solid;
     font-family:cursive;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
 }
 
 #contact {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     padding: 20px;
     border-radius: 10px;
     border: white 3px solid;
 }
 
 .list {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     padding: 20px;
     list-style: circle;
     padding: 20px;
@@ -85,23 +89,26 @@ h1 {
     border-radius: 10px;
     border: white 3px solid;
     font-family: cursive;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
 }
 
 .contactUs {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     font-size: 25px;
     color: white;
     border-radius: 10px;
     border: white 3px solid;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
 }
 
 .crumb {
     
     margin-right: 2em;
     display: inline;
-    background-color:cornflowerblue;
+    background-color:lightskyblue;
     border-radius: 10px;
     font-size: 25px;
+    text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
 }
 
 a {
@@ -130,8 +137,22 @@ p {
 
 #springfield {
     padding-left: 75px;
+    color: gold;
+    text-shadow: 2px 28px 16px rgba(36,15,10,0.95);
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/772/718/465/clouds-the-simpsons-figure-background-wallpaper-preview.jpg;");
 }
 
 #myVid {
     padding-right: 100px;
+}
+
+.springfield {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/772/718/465/clouds-the-simpsons-figure-background-wallpaper-preview.jpg");
+    font-size: 60px;
+    padding: 20px;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 20px;
 }
