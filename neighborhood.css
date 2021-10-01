@@ -1,0 +1,53 @@
+body {
+    background-image: url("http://media4.s-nbcnews.com/i/streams/2012/April/120410/318811-120410-ent-springfield-vmed.jpg");
+    background-size: cover;
+    align-content: center;
+    align-content: center;
+    margin-left: 40%;
+    max-width: 500px;
+}
+
+.city-head {
+    background-color: mediumturquoise;
+    font-size: 30px;
+    background-image: url("https://mystickermania.com/cdn/stickers/simpsons-stickers/sticker_5006-512x512.png");
+    background-position: center;
+    color: slategray;
+}
+
+h1 {
+    background-color: mediumturquoise;
+    font-size: 60px;
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+
+}
+
+.offer {
+    background-color: mediumturquoise;
+    font-size: 30px;
+}
+
+.springfield-info {
+    background-color: mediumturquoise;
+    padding: 20px;
+    color: white;
+}
+
+#contact {
+    background-color: mediumturquoise;
+    padding: 20px;
+}
+
+.list {
+    background-color: mediumturquoise;
+    padding: 20px;
+    list-style: circle;
+}
+
+.contactUs {
+    background-color: mediumturquoise;
+    font-size: 25px;
+    color: white;
+}

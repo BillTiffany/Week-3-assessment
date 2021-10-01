@@ -1,0 +1,93 @@
+body {
+  background: #247BA0;
+  margin: 1rem;
+  padding-left: 200px;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://q-xx.bstatic.com/xdata/images/hotel/840x460/70484675.jpg?k=3445072d5df7094ac98d26221b4c499f36e46739fe10be7c97bff6059c1b4a55&o=");
+  background-size: cover;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 20;
+	background-color: ivory;
+	list-style: circle;
+}
+
+.duckie {
+	border-radius: 50%;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+.hotel-head {
+	background-color: ivory;
+	font-family: cursive;
+	font-display: center;
+	text-justify: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 700px;
+	font-size: 50px;
+	text-align: center;
+	margin-right: 100px;
+
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.hotel-california {
+	font-family: cursive;
+	font-weight: 100;
+	font-size: larger;
+	background-color: #13293D;
+	text-justify: center;
+	background-size: scale(2,2);
+	color: #E8F1F2;
+
+}
+
+.tell {
+	font-family: fantasy;
+	font-size: 25px;
+}
+
+
+.offer {
+	font-family: fantasy;
+	font-size: 25px;
+	color: white;
+	font-style: italic;
+	font-style: underline;
+
+}
+
+#contact {
+	background-color: ivory;
+	height: max-content;
+	padding: 20px;
+}

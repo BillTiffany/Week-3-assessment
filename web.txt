@@ -1,0 +1,22 @@
+
+How the internet works.
+
+    The internet is basically a cable. One long cable that physically connects all computers in the world. 
+The computer that you use is actually called a client.Your computer(client) connects to a router, this 
+router takes your client IP address and sends it to the modem. The modem then connects to your internet
+service provider or ISP. The ISP then moves to the router of the website you're looking for.
+    
+    The router of the website you are searching for connects to the server hub. The server hub holds
+a massive array of data hard drives that store the information and databases for the webpsite. 
+
+What happens when you click on a link. 
+
+    When you click on a link, your computer(client) sends a request for the link through your server and 
+modem and into your ISP. When your ISP receives the request it sends the request through a resolver to the 
+root client. The root then contacts the TLD where the registrar information is stored on the Authoritative
+name server. The TLD then finds the correct IP address for the domain name submitted and provides that to 
+the root. 
+    The root then returns with the correct IP address for the website you are searching for. The root then
+Tells the Operating system the correct IP address for the clients submission. The browser on your computer(client)
+then requests information from the provided IP address and requests HTML, CSS and Javascript information. The server
+sends this information in packets to display on the browser. 
