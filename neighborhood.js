@@ -10,10 +10,10 @@ let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-document.getElementById("myVid").addEventListener("mouseover", function() {
-	this.play();
-});
 
-document.getElementById("myVid").addEventListener("mouseleave", function() {
-	this.pause();
-});
+
+const months = ["January", "February", "March", "April", "May", "June", "July"];
+
+const random = Math.floor(Math.random() * months.length);
+console.log(random, months[random]);
+

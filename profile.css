@@ -52,13 +52,17 @@ body {
 
   button {
       color: black;
-      background-color: yellow;
-      border: #660708 3px solid;
+      background: rgb(244,255,0);
+    background: linear-gradient(180deg, rgba(244,255,0,1) 0%, rgba(206,218,159,0.3648809865743172) 10%, rgba(219,255,0,1) 100%);
+      border: #080808 3px solid;
       justify-content: space-between;
       border-radius: 20%;
       font-size: 15px;
       font-weight: 500;
       border-style: double;
+      height:30px;
+      -webkit-box-shadow: 2px 7px 30px 10px #000000; 
+      box-shadow: 2px 7px 30px 10px #000000;
   }
 
   button:hover {

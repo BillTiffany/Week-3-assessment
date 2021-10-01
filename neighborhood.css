@@ -156,3 +156,7 @@ p {
     font-family: 'Rock Salt', cursive;
     margin-bottom: 20px;
 }
+
+.restBtn {
+    background-color: lightskyblue;
+}
