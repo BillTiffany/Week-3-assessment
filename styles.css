@@ -5,7 +5,7 @@ body {
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
-  background-image: url("https://q-xx.bstatic.com/xdata/images/hotel/840x460/70484675.jpg?k=3445072d5df7094ac98d26221b4c499f36e46739fe10be7c97bff6059c1b4a55&o=");
+  background-image: url("https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg");
   background-size: cover;
 }
 
@@ -21,6 +21,7 @@ ol {
 
 .duckie {
 	border-radius: 50%;
+	margin-left: 65px;
 }
 
 .crumb {
@@ -30,17 +31,18 @@ ol {
 
 .hotel-head {
 	background-color: ivory;
-	font-family: cursive;
+	font-family: 'Grand Hotel', cursive;
 	font-display: center;
 	text-justify: center;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	width: 700px;
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
 	margin-right: 100px;
 	max-width: 400px;
+	border-radius: 10px;
 
 }
 
@@ -69,12 +71,17 @@ img {
 	text-justify: center;
 	background-size: scale(2,2);
 	color: #E8F1F2;
+	border-radius: 10px;
+	padding: 10px;
 
 }
 
 .tell {
 	font-family: fantasy;
 	font-size: 25px;
+	border-radius: 10px;
+	padding: 10px;
+
 }
 
 
@@ -84,15 +91,30 @@ img {
 	color: black;
 	font-style: italic;
 	background-color: ivory ;
+	border-radius: 10px;
+	padding: 10px;
+
 
 }
 
 #contact {
 	background-color: ivory;
 	height: max-content;
-	padding: 20px;
+	border-radius: 10px;
+	padding: 10px;
 }
 
 .contact {
 	background-color: ivory;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+
+.hello {
+	background-color: ivory;
+	width: 200px;
+	margin-left: 100px;
+	border-radius: 10px;
+	padding: 10px;
 }
