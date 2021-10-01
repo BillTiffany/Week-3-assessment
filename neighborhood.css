@@ -35,6 +35,9 @@ body {
     animation: wheelHueColor 3s infinite;
 }
 
+.city-head:hover {
+    cursor: pointer;
+}
 
 
 h1 {
@@ -62,6 +65,7 @@ h1 {
     color: white;
     border-radius: 10px;
     border: white 3px solid;
+    font-family:cursive;
 }
 
 #contact {
@@ -80,6 +84,7 @@ h1 {
     color: white;
     border-radius: 10px;
     border: white 3px solid;
+    font-family: cursive;
 }
 
 .contactUs {
