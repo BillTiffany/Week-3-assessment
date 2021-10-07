@@ -109,6 +109,7 @@ h1 {
     border-radius: 10px;
     font-size: 25px;
     text-shadow: 2px 4px 10px rgba(36,15,10,0.77);
+    
 }
 
 a {
@@ -159,4 +160,7 @@ p {
 
 .restBtn {
     background-color: lightskyblue;
+    border-radius: 10px;
+    border: white 3px solid;
+    padding: 20px;
 }

@@ -53,7 +53,7 @@ body {
   button {
       color: black;
       background: rgb(244,255,0);
-    background: linear-gradient(180deg, rgba(244,255,0,1) 0%, rgba(206,218,159,0.3648809865743172) 10%, rgba(219,255,0,1) 100%);
+      background: linear-gradient(180deg, rgba(244,255,0,1) 0%, rgba(206,218,159,0.3648809865743172) 10%, rgba(219,255,0,1) 100%);
       border: #080808 3px solid;
       justify-content: space-between;
       border-radius: 20%;
